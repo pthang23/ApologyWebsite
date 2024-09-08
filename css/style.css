@@ -1,0 +1,102 @@
+.content {
+    position: relative;
+    z-index: 3;
+    padding: 0 18%;
+  }
+  #no{
+    position: absolute;
+    display: block;
+    left: 42%;
+    top: 82vh;
+    -webkit-transition: all 0.1s ease-out;
+  }
+  #yes{
+    position: absolute;
+    display: block;
+    left: 52%;
+    top: 82vh;
+    -webkit-transition: all 0.3s ease-out;
+  }
+#bg{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  /* height: 100vh; */
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-image: url(../img/test6.jpg);
+  background-size: cover;
+  background-position: 50%;
+  -webkit-filter: blur(4px);
+}
+.swal2-title, .swal2-content{
+  color: azure !important;
+}
+.swal2-popup {
+  border-radius: 15px !important;
+  width: 37em !important;
+}
+
+header h2 {
+  font-family: 'Mali';
+  font-size: 60px;
+  text-align: center;
+  margin: 40px 0 30px 0;
+  font-weight: bold;
+}
+header h3 {
+  font-family: 'Mali';
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+}
+header h4 {
+  font-family: 'Mali';
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+  header h2 {
+    font-family: 'Mali';
+    font-size: 45px;
+    text-align: center;
+    margin: 40px 0 30px 0;
+  }
+  header h3 {
+    font-family: 'Mali';
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0 30px 0;
+    font-weight: bold;
+  }
+  header h4 {
+    font-family: 'Mali';
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 1em;
+  }
+  #no{
+    position: absolute;
+    display: inline-block;
+    left: 7%; 
+    top: 40vh;
+    font-size: 14px;
+    padding: 3px;
+    -webkit-transition: all 0.1s ease-out;
+  }
+  #yes{
+    position: absolute;
+    display: inline-block;
+    left: 58%; 
+    top: 40vh;
+    font-size: 14px;
+    padding: 3px;
+    -webkit-transition: all 0.3s ease-out;
+  }
+}
